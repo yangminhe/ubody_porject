@@ -1,0 +1,42 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+appium-python-client = "==0.49"
+asgiref = "==3.2.3"
+certifi = "==2019.11.28"
+chardet = "==3.0.4"
+chromedriver = "==2.24.1"
+colorama = "==0.4.3"
+colorlog = "==4.0.2"
+django = "==3.0.1"
+filetype = "==1.0.5"
+get = "==2019.4.13"
+har2case = "==0.3.1"
+httprunner = "==2.4.7"
+idna = "==2.8"
+jinja2 = "==2.10.3"
+jsonpath = "==0.82"
+markupsafe = "==1.1.1"
+pipenv = "==2018.11.26"
+post = "==2019.4.13"
+public = "==2019.4.13"
+pytz = "==2019.3"
+pyyaml = "==5.2"
+query-string = "==2019.4.13"
+request = "==2019.4.13"
+requests = "==2.22.0"
+requests-toolbelt = "==0.9.1"
+selenium = "==3.141.0"
+sentry-sdk = "==0.13.5"
+sqlparse = "==0.3.0"
+urllib3 = "==1.25.7"
+virtualenv = "==16.7.9"
+virtualenv-clone = "==0.5.3"
+
+[requires]
+python_version = "3.8"

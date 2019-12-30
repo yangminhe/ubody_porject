@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 #------------语言设置-------------
 #英文字符
 # LANGUAGE_CODE = 'en-us'
-LANGGUAGE_CODE = 'zh-Hans'
+LANGGUAGE_CODE = 'zh-Hang'
 #-----------语言设置结束-----------
 
 TIME_ZONE = 'UTC'
