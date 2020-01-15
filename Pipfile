@@ -37,6 +37,7 @@ sqlparse = "==0.3.0"
 urllib3 = "==1.25.7"
 virtualenv = "==16.7.9"
 virtualenv-clone = "==0.5.3"
+mylib = "*"
 
 [requires]
 python_version = "3.8"
