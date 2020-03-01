@@ -10,25 +10,14 @@
                    2020/1/6:
 -------------------------------------------------
 """
-import logging
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# 创建日志的路径
-LOG_PATH = os.path.join(BASE_DIR, 'logs')
-# 如果地址不存在，则自动创建log文件夹
-if not os.path.exists(LOG_PATH):
-    os.mkdir(LOG_PATH)
+#导入配置的文件包
+from blog.object import settings
+#使用logging包的config方法
+import logging.config
+#引用logging.config的dictConfig方法，注意这里要带文件名settings，否则无法使用LOGGING方法
+logging.config.dictConfig(settings.LOGGING)
+loggers=logging.getLogger('log')
 
-# encoding:utf-8
-import sys
-import logging
-import time
-def writeLog(message):
-  logger=logging.getLogger()
-  filename = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-  handler=logging.FileHandler("logs"+filename+"error")
-  logger.addHandler(handler)
-  logger.setLevel(logging.NOTSET)
-  logger.info(message)
-if __name__ == '__main__':
-  Tlog =writeLog()
+#这里不用logging的记录器，直接使用logging的方法去调用日志leve
+loggers.error('2213')
+loggers.info('2344444')

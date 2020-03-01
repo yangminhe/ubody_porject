@@ -127,15 +127,15 @@ STATIC_URL = '/static/'
 #########################
 ## Django Logging  BEGIN
 #########################
-
-#LOGGING_DIR 日志文件存放目录
-
+#导入时间模块
 import time
+#导入logging模块的config配置
 import logging.config
 cur_path = os.path.dirname(os.path.realpath(__file__)) #返回当前文件所在的绝对路径
-log_path = os.path.join(os.path.dirname(cur_path),'../logs')
+log_path = os.path.join(os.path.dirname(cur_path),'../logs')  #日志路径
 if not os.path.exists(log_path): os.mkdir(log_path)  # 如果不存在这个logs文件夹，就自动创建一个
 
+#日志配置
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
@@ -157,7 +157,7 @@ LOGGING = {
         'default': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(log_path, 'all-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'filename': os.path.join(log_path, '{}.log'.format(time.strftime('%Y-%m-%d'))), #生成日志文件+时间
             'maxBytes': 1024 * 1024 * 5,  # 文件大小
             'backupCount': 5,  # 备份数
             'formatter': 'standard',  # 输出格式
@@ -167,7 +167,7 @@ LOGGING = {
         'error': {
             'level': 'ERROR',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(log_path, 'error-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'filename': os.path.join(log_path, '{}.log'.format(time.strftime('%Y-%m-%d'))),
             'maxBytes': 1024 * 1024 * 5,  # 文件大小
             'backupCount': 5,  # 备份数
             'formatter': 'standard',  # 输出格式
@@ -183,7 +183,7 @@ LOGGING = {
         'info': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(log_path, 'info-{}.log'.format(time.strftime('%Y-%m-%d'))),
+            'filename': os.path.join(log_path, '{}.log'.format(time.strftime('%Y-%m-%d'))),
             'maxBytes': 1024 * 1024 * 5,
             'backupCount': 5,
             'formatter': 'standard',
@@ -207,10 +207,10 @@ LOGGING = {
     }
 }
 
-logging.config.dictConfig(LOGGING)
-loggers=logging.getLogger('111')
+# logging.config.dictConfig(LOGGING)
+# loggers=logging.getLogger('log')
 
-loggers.info('222')
+# logging.info('222')
 
 
 #########################
