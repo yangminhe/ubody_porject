@@ -41,7 +41,7 @@ class Winos(QWidget):
         self.show()
 
 
-    # center是QT显示在屏幕中间的类
+    # center是QT显示在屏幕中间窗口属性
     def center(self):
         # 获得窗口
         qr = self.frameGeometry()
