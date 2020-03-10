@@ -3,6 +3,7 @@ import os
 from blog.object import settings
 import sys
 from PyQt5.Qt import *
+
 #引用日志配置
 logging.config.dictConfig(settings.LOGGING)
 #引用日志记录器
