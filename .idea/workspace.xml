@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac2473ad-ef8c-49c5-b723-9572c53892c4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public_porject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public_porject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -275,7 +277,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577410937207</updated>
-      <workItem from="1583805293935" duration="1303000" />
+      <workItem from="1583805293935" duration="2861000" />
+      <workItem from="1583808214824" duration="719000" />
     </task>
     <servers />
   </component>
@@ -319,7 +322,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
