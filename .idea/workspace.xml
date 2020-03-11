@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2473ad-ef8c-49c5-b723-9572c53892c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public_porject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public_porject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQt5/message-i.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQt5/message-i.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/cloud.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/cloud.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/message-i.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/message-i.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/pyQt5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/pyQt5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_partice/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_linux/ftp_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_linux/ftp_for.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +99,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.message-i">
+  <component name="RunManager" selected="Python.ftp_for">
     <configuration name="ftp_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="public_porject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +137,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_linux/ftp_for.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="message-i (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="public_porject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_partice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_partice/message-i.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="message-i (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="public_porject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_pratice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_pratice/message-i.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="public_porject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,56 +219,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_pratice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQt5/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="public_porject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQt5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQt5/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="public_porject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQt5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQt5/window.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_pratice/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +258,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.window" />
       <item itemvalue="Python.message-i" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.ftp_for" />
+      <item itemvalue="Python.message-i (1)" />
+      <item itemvalue="Python.message-i (2)" />
+      <item itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.message-i" />
         <item itemvalue="Python.ftp_for" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.window" />
+        <item itemvalue="Python.message-i (2)" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.message-i (1)" />
+        <item itemvalue="Python.message-i" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +287,8 @@
       <workItem from="1583805293935" duration="2861000" />
       <workItem from="1583808214824" duration="1357000" />
       <workItem from="1583809600214" duration="186000" />
+      <workItem from="1583809840039" duration="605000" />
+      <workItem from="1583810468260" duration="11216000" />
     </task>
     <servers />
   </component>
@@ -343,5 +354,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/public_porject$message_i__1_.coverage" NAME="message-i (1) Coverage Results" MODIFIED="1583815426133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_partice" />
+    <SUITE FILE_PATH="coverage/public_porject$ftp_for.coverage" NAME="ftp_for Coverage Results" MODIFIED="1583829292879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server_linux" />
+    <SUITE FILE_PATH="coverage/public_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1583827683453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/public_porject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1583821954085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
   </component>
 </project>

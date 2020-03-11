@@ -31,8 +31,10 @@ class Winos(QWidget):
         self.btn.clicked.connect(self.openfile)
 
 
+
         self.btn1 = QPushButton('保存',self)
         self.btn1.setGeometry(QRect(280, 50, 75, 23))
+
 
         #这里是创建窗口
         self.setGeometry(400, 400, 400, 300)
@@ -57,7 +59,9 @@ class Winos(QWidget):
         print(fileName1)
         path = fileName1[0]
         self.open_path_text.setText(path)
-
+        path_load = open("path_load","w")
+        path_load.write(path)
+        # path_load.close()
 
 
     def closeEvent(self, event):
@@ -65,7 +69,6 @@ class Winos(QWidget):
         reply = QMessageBox.question(self, 'Message',
                                      "是否要退出?", QMessageBox.Yes |
                                      QMessageBox.No, QMessageBox.No)
-
         if reply == QMessageBox.Yes:
             event.accept()
         else:
