@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2473ad-ef8c-49c5-b723-9572c53892c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/public_porject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public_porject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/cloud.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/cloud.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/message-i.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/message-i.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/pyQt5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/pyQt5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qt_partice/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/message-i.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/message-i.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/path_load" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/path_load" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qt_pratice/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server_linux/ftp_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_linux/ftp_for.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ftp_for">
+  <component name="RunManager" selected="Python.test2">
     <configuration name="ftp_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="public_porject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,9 +261,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.ftp_for" />
         <item itemvalue="Python.message-i (2)" />
-        <item itemvalue="Python.test2" />
         <item itemvalue="Python.message-i (1)" />
         <item itemvalue="Python.message-i" />
       </list>
@@ -288,7 +283,7 @@
       <workItem from="1583808214824" duration="1357000" />
       <workItem from="1583809600214" duration="186000" />
       <workItem from="1583809840039" duration="605000" />
-      <workItem from="1583810468260" duration="11216000" />
+      <workItem from="1583810468260" duration="27494000" />
     </task>
     <servers />
   </component>
@@ -357,8 +352,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/public_porject$message_i__1_.coverage" NAME="message-i (1) Coverage Results" MODIFIED="1583815426133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_partice" />
-    <SUITE FILE_PATH="coverage/public_porject$ftp_for.coverage" NAME="ftp_for Coverage Results" MODIFIED="1583829292879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server_linux" />
-    <SUITE FILE_PATH="coverage/public_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1583827683453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
-    <SUITE FILE_PATH="coverage/public_porject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1583821954085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/public_porject$ftp_for.coverage" NAME="ftp_for Coverage Results" MODIFIED="1583915791043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server_linux" />
+    <SUITE FILE_PATH="coverage/public_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1583912456938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/public_porject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1583915936338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
   </component>
 </project>

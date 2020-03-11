@@ -11,8 +11,6 @@ class MyWindow(QtWidgets.QWidget):
         self.myButton.clicked.connect(self.msg)
 
     def msg(self):
-
-
         fileName1, filetype = QFileDialog.getOpenFileName(self,
                                                           "选取文件",
 
