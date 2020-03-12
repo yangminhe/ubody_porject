@@ -1,8 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+-------------------------------------------------
+   File Name：     ftp_for
+   Description :
+   Author :       杨敏和
+   date：         2020/2/22 10:49
+-------------------------------------------------
+   Change Activity:
+                   2020/2/22:
+-------------------------------------------------
+"""
 import logging.config
 import os
 from blog.object import settings
 import sys
 from PyQt5.Qt import *
+from server_linux.ftp_for import Putserver
 
 # 引用日志配置
 logging.config.dictConfig(settings.LOGGING)
@@ -34,7 +47,7 @@ class Winos(QWidget):
 
         self.btn1 = QPushButton('保存', self)
         self.btn1.setGeometry(QRect(280, 50, 75, 23))
-        # self.btn1.clicked.connect(self.savafile)
+        self.btn1.clicked.connect(self.savefile)
 
         # 这里是创建窗口
         self.setGeometry(400, 400, 400, 300)
@@ -57,12 +70,24 @@ class Winos(QWidget):
         fileName1 = QFileDialog.getOpenFileName(self, "选取文件")
         print(fileName1)
         path = fileName1[0]
+        #文件地址存储
         self.open_path_text.setText(path)
-        path_load = open("path_load", "w")
+        path_load = open("path_load", "w" ,encoding="utf-8")
         path_load.write(path)
+        #文件名字存储
+        f = QFileInfo(path)
+        file_name = f.fileName()
+        print(file_name)
+        Na = open("file_os", "w", encoding="utf-8")
+        Na.write(file_name)
         # path_load.close()
 
-    # def savafile(self):
+    def savefile(self):
+        "调用paramiko连接服务器并保存"
+        save = Putserver()
+        save.putconnet()
+
+
 
     def closeEvent(self, event):
 

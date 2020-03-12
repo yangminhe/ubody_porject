@@ -1,4 +1,3 @@
+from PyQt5.Qt import *
 
-files= open('path_load','r+')
-a =files.read()
-print(a)
+

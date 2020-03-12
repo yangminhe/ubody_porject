@@ -40,10 +40,12 @@ class Putserver():
         # 实例化一个 sftp对象,指定连接的通道
         sftp = paramiko.SFTPClient.from_transport(Putserver.trans)
         # 发送文件
-        files = open("../Qt_pratice/path_load", "r+")
-        Fpath = files.read()
-
-        sftp.put(localpath='{}'.format(Fpath), remotepath='/root/111.txt')
+        path1 = open("../Qt_pratice/path_load", "r+")
+        Fpath = path1.read()
+        #存储地址
+        Files = open("../Qt_pratice/file_os", "r+")
+        Fname = Files.read()
+        sftp.put(localpath='{}'.format(Fpath), remotepath='/root/{}'.format(Fname))
         # 下载文件`
         # sftp.get(remotepath, localpath)
         # 关闭连接
