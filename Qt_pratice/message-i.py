@@ -35,15 +35,25 @@ class Winos(QWidget):
         self.initUI()  # 绘制界面方法initUI,不固定，可以给其它值
 
     def initUI(self):
-        # 打印浏览地址
+        #打印文件信息
         self.open_path_text = QLineEdit(self)
         self.open_path_text.setGeometry(QRect(30, 22, 250, 23))
         self.open_path_text.setPlaceholderText("打开地址")
-
         # 创建按钮选取文件
-        self.btn = QPushButton('浏览', self)
+        self.btn = QPushButton('选择文件', self)
         self.btn.setGeometry(QRect(280, 22, 75, 23))
         self.btn.clicked.connect(self.openfile)
+
+        # apk包信息
+        self.title = QLabel('软件名')
+        self.titleEdit = QLineEdit()
+
+        self.author = QLabel('版本号')
+        self.authorEdit = QLineEdit()
+        self.review = QLabel('发版信息')
+        self.reviewEdit = QTextEdit()
+
+
 
         self.btn1 = QPushButton('保存', self)
         self.btn1.setGeometry(QRect(280, 50, 75, 23))
@@ -88,7 +98,7 @@ class Winos(QWidget):
         save.putconnet()
 
 
-
+    #删除按钮
     def closeEvent(self, event):
 
         reply = QMessageBox.question(self, 'Message',

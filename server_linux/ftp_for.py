@@ -47,6 +47,7 @@ class Putserver():
         Files = open("../Qt_pratice/file_os", "r+")
         Fname = Files.read()
         sftp.put(localpath='{}'.format(Fpath), remotepath='/root/{}'.format(Fname))
+
         # 下载文件`
         # sftp.get(remotepath, localpath)
         # 关闭连接

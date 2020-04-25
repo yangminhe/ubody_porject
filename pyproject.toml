@@ -30,6 +30,7 @@ unittest2 = "^1.1.0"
 pyyaml = "^5.3.1"
 appium-python-client = "^0.51"
 selenium = "^3.141.0"
+pymysql = "^0.9.3"
 
 [tool.poetry.dev-dependencies]
 
