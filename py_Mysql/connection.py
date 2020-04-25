@@ -13,7 +13,6 @@
 import logging.config
 import os
 from blog.object import settings
-import pymysql
 
 #引用日志配置
 logging.config.dictConfig(settings.LOGGING)

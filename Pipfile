@@ -1,6 +1,6 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 verify_ssl = true
 
 [dev-packages]
@@ -45,4 +45,4 @@ pyqt5 = "*"
 paramiko = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8.0"

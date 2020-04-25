@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 #导入logging模块的config方法
 import logging.config
 #引入日志方法文件
