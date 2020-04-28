@@ -80,14 +80,7 @@ class Winos(QWidget):
 
         Debuggingbox.addWidget(Information, 4, 0)
         Debuggingbox.addWidget(InformationEdit, 4, 1, 4,1)
-
-
-
         self.setLayout(Debuggingbox)
-
-
-
-
 
         # 这里是创建窗口
         self.setGeometry(400, 400, 400, 300)
@@ -111,29 +104,26 @@ class Winos(QWidget):
         print(fileName1)
         path = fileName1[0]
         #文件地址存储
-        self.open_path_text.setText(path)
         path_load = open("path_load", "w" ,encoding="utf-8")
         path_load.write(path)
         #文件名字存储
         f = QFileInfo(path)
         file_name = f.fileName()
-        print(file_name)
+        self.open_path_text.setText(file_name)
         Na = open("file_os", "w", encoding="utf-8")
         Na.write(file_name)
-        # path_load.close()
 
     def savefile(self):
         "调用paramiko连接服务器并保存"
+        empty = open('file_os', "r+")
         save = Putserver()
         filesize = os.path.getsize('file_os')
         if filesize == 0:
             QMessageBox.warning(self, "警告", "请查看相关信息是否未填写！")
         else:
             save.putconnet()
-
-        
-
-
+            empty.truncate()
+            self.open_path_text.clear()
 
 
     #删除按钮
