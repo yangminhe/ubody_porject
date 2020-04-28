@@ -37,12 +37,10 @@ class Winos(QWidget):
     def initUI(self):
         #打印文件信息
         self.open_path_text = QLineEdit(self)
-        # open_path_text.setGeometry(QRect(30, 22, 250, 23))
         self.open_path_text.setEnabled(False)
         self.open_path_text.setPlaceholderText("文件地址")
         # 创建按钮选取文件
         Choosepath = QPushButton('选择文件', self)
-        # Choosepath.setGeometry(QRect(280, 22, 75, 23))
         Choosepath.clicked.connect(self.openfile)
 
         # apk包信息
@@ -74,15 +72,15 @@ class Winos(QWidget):
         Debuggingbox.addWidget(self.open_path_text,1,1)
         Debuggingbox.addWidget(Choosepath,1,0)
 
-        # Debuggingbox.addWidget(PackageName, 2, 0)
-        # Debuggingbox.addWidget(PackageNameEdit, 2, 1)
-        #
-        # Debuggingbox.addWidget(Vsersion, 3, 0)
-        # Debuggingbox.addWidget(VsersionEdit, 3, 1)
-        #
-        # Debuggingbox.addWidget(Information, 4, 0)
-        # Debuggingbox.addWidget(InformationEdit, 4, 1, 4,1)
-        #
+        Debuggingbox.addWidget(PackageName, 2, 0)
+        Debuggingbox.addWidget(PackageNameEdit, 2, 1)
+
+        Debuggingbox.addWidget(Vsersion, 3, 0)
+        Debuggingbox.addWidget(VsersionEdit, 3, 1)
+
+        Debuggingbox.addWidget(Information, 4, 0)
+        Debuggingbox.addWidget(InformationEdit, 4, 1, 4,1)
+
 
 
         self.setLayout(Debuggingbox)
@@ -127,12 +125,12 @@ class Winos(QWidget):
     def savefile(self):
         "调用paramiko连接服务器并保存"
         save = Putserver()
-        # save.putconnet()
-        if self.openfile == "" :
-             QMessageBox.warning(self, "警告", "不可保存空数据信息！")
+        filesize = os.path.getsize('file_os')
+        if filesize == 0:
+            QMessageBox.warning(self, "警告", "请查看相关信息是否未填写！")
         else:
-             save.putconnet()
-        
+            save.putconnet()
+
         
 
 
