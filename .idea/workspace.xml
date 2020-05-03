@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ac2473ad-ef8c-49c5-b723-9572c53892c4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Qt_pratice/path_load" afterPath="$PROJECT_DIR$/Qt_pratice/path_load" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/message-i.py" afterPath="$PROJECT_DIR$/Qt_pratice/message-i.py" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/test.py" afterPath="$PROJECT_DIR$/Qt_pratice/test.py" />
+      <change beforePath="$PROJECT_DIR$/Qt_pratice/test1.py" afterPath="$PROJECT_DIR$/Qt_pratice/test1.py" />
       <change beforePath="$PROJECT_DIR$/Qt_pratice/test2.py" afterPath="$PROJECT_DIR$/Qt_pratice/test2.py" />
       <change beforePath="$PROJECT_DIR$/py_Mysql/connection.py" afterPath="$PROJECT_DIR$/py_Mysql/connection.py" />
+      <change beforePath="$PROJECT_DIR$/server_linux/ftp_for.py" afterPath="$PROJECT_DIR$/server_linux/ftp_for.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,18 +31,18 @@
     <SUITE FILE_PATH="coverage/ubody_porject$ftplib.coverage" NAME="ftplib Coverage Results" MODIFIED="1582351674344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7" />
     <SUITE FILE_PATH="coverage/ubody_porject$practice__1_.coverage" NAME="practice (1) Coverage Results" MODIFIED="1580291680996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xlrd" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_for_test_Myclass_Test_Myclass_test_sub.coverage" NAME="Unittests for test_Myclass.Test_Myclass.test_sub Coverage Results" MODIFIED="1581270129176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_cas" />
-    <SUITE FILE_PATH="coverage/Ymh_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1588002228787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/Ymh_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1588440234413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
     <SUITE FILE_PATH="coverage/ubody_porject$Tlog.coverage" NAME="Tlog Coverage Results" MODIFIED="1579339937481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_porject" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_for_ddt_test_MyMailLogin.coverage" NAME="Unittests for ddt_test.MyMailLogin Coverage Results" MODIFIED="1581174549565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_in_test_Myclass_py.coverage" NAME="Unittests in test_Myclass.py Coverage Results" MODIFIED="1581340571660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_cas" />
-    <SUITE FILE_PATH="coverage/Ymh_porject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1587829178281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/Ymh_porject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1588506917196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
     <SUITE FILE_PATH="coverage/Ymh_porject$window.coverage" NAME="window Coverage Results" MODIFIED="1586030178834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
     <SUITE FILE_PATH="coverage/ubody_porject$settings.coverage" NAME="settings Coverage Results" MODIFIED="1579338900456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog/object" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_for_test_Myclass_Test_Myclass_test_sum.coverage" NAME="Unittests for test_Myclass.Test_Myclass.test_sum Coverage Results" MODIFIED="1581270289832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_cas" />
-    <SUITE FILE_PATH="coverage/Ymh_porject$connection.coverage" NAME="connection Coverage Results" MODIFIED="1588092353829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_Mysql" />
+    <SUITE FILE_PATH="coverage/Ymh_porject$connection.coverage" NAME="connection Coverage Results" MODIFIED="1588172482934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_Mysql" />
     <SUITE FILE_PATH="coverage/ubody_porject$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1582997306642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyQt5" />
     <SUITE FILE_PATH="coverage/ubody_porject$message_i__2_.coverage" NAME="message-i (2) Coverage Results" MODIFIED="1584030871541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
-    <SUITE FILE_PATH="coverage/Ymh_porject$test.coverage" NAME="test Coverage Results" MODIFIED="1586029919276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/Ymh_porject$test.coverage" NAME="test Coverage Results" MODIFIED="1588427926651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_for_ddt_test_MyTestDdt_test_one.coverage" NAME="Unittests for ddt_test.MyTestDdt.test_one Coverage Results" MODIFIED="1581171668217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt" />
     <SUITE FILE_PATH="coverage/ubody_porject$Unittests_in_test_Myclass2_py.coverage" NAME="Unittests in test_Myclass2.py Coverage Results" MODIFIED="1581527181225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_cas" />
     <SUITE FILE_PATH="coverage/Ymh_porject$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1587831831617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
@@ -49,7 +52,7 @@
     <SUITE FILE_PATH="coverage/ubody_porject$views.coverage" NAME="views Coverage Results" MODIFIED="1578322079062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/admin/selenium_porject" />
     <SUITE FILE_PATH="coverage/Ymh_porject$ftp_for.coverage" NAME="ftp_for Coverage Results" MODIFIED="1588002254688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server_linux" />
     <SUITE FILE_PATH="coverage/ubody_porject$Myclass_main.coverage" NAME="Myclass_main Coverage Results" MODIFIED="1582205137068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_cas" />
-    <SUITE FILE_PATH="coverage/Ymh_porject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1588089138489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
+    <SUITE FILE_PATH="coverage/Ymh_porject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1588496061496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qt_pratice" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -68,8 +71,8 @@
       <file leaf-file-name="message-i.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qt_pratice/message-i.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-531">
-              <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="296">
+              <caret line="130" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding>
                 <element signature="e#330#351#0" expanded="true" />
               </folding>
@@ -80,33 +83,46 @@
       <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qt_pratice/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1979">
-              <caret line="125" column="31" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="31" />
-              <folding>
-                <element signature="e#330#351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="107">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_Mysql/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="299">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#333#354#0" expanded="true" />
-                <marker date="1588092248886" expanded="true" signature="736:789" ph="INSERT INTO EMPLOYEE... " />
+                <marker date="1588173027632" expanded="true" signature="814:1068" ph="insert into app_version... " />
+                <marker date="1588173027632" expanded="true" signature="814:1069" ph="INSERT INTO EMPLOYEE... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyproject.toml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyproject.toml">
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Qt_pratice/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="-114">
+              <caret line="144" column="55" lean-forward="false" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
+              <folding>
+                <element signature="e#330#351#0" expanded="true" />
+                <marker date="1588508113468" expanded="true" signature="4823:4934" ph="insert into app_version... " />
+                <marker date="1588508113468" expanded="true" signature="4823:4955" ph="insert into app_version... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyQt5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Qt_pratice/pyQt5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -115,8 +131,8 @@
       <file leaf-file-name="ftp_for.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server_linux/ftp_for.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="e#331#352#0" expanded="true" />
               </folding>
@@ -137,10 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>languan</find>
-      <find>sele</find>
-      <find>ur</find>
-      <find>colo</find>
       <find>mid</find>
       <find>django</find>
       <find>log_path</find>
@@ -157,8 +169,20 @@
       <find>save_text</find>
       <find>open_path_text</find>
       <find>btn1</find>
+      <find>选取文件</find>
+      <find>QDialog</find>
+      <find>Winos</find>
+      <find>MainWidget</find>
+      <find>nameLineEdit</find>
+      <find>QCoreApplication</find>
       <find>savefile</find>
+      <find>addNum</find>
+      <find>PackageNameEdit</find>
       <find>closeEvent</find>
+      <find>SaveName</find>
+      <find>QWidget</find>
+      <find>Putserver</find>
+      <find>Name</find>
     </findStrings>
     <replaceStrings>
       <replace>Savepath</replace>
@@ -176,18 +200,18 @@
       <list>
         <option value="$PROJECT_DIR$/Qt_pratice/window.py" />
         <option value="$PROJECT_DIR$/selenium_porject/views.py" />
-        <option value="$PROJECT_DIR$/Qt_pratice/test.py" />
         <option value="$PROJECT_DIR$/poetry.toml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/pyproject.toml" />
-        <option value="$PROJECT_DIR$/server_linux/ftp_for.py" />
-        <option value="$PROJECT_DIR$/Qt_pratice/message-i.py" />
-        <option value="$PROJECT_DIR$/Qt_pratice/test1.py" />
         <option value="$PROJECT_DIR$/Qt_pratice/file_os" />
         <option value="$PROJECT_DIR$/Qt_pratice/path_load" />
-        <option value="$PROJECT_DIR$/Qt_pratice/test2.py" />
+        <option value="$PROJECT_DIR$/server_linux/ftp_for.py" />
         <option value="$PROJECT_DIR$/py_Mysql/connection.py" />
+        <option value="$PROJECT_DIR$/Qt_pratice/test.py" />
+        <option value="$PROJECT_DIR$/Qt_pratice/message-i.py" />
+        <option value="$PROJECT_DIR$/Qt_pratice/test2.py" />
+        <option value="$PROJECT_DIR$/Qt_pratice/test1.py" />
       </list>
     </option>
   </component>
@@ -198,8 +222,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="23" />
+    <option name="x" value="116" />
+    <option name="y" value="35" />
     <option name="width" value="1440" />
     <option name="height" value="802" />
   </component>
@@ -220,7 +244,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,22 +254,18 @@
             <path>
               <item name="Ymh_porject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ymh_porject" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ymh_porject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ymh_porject" type="462c0819:PsiDirectoryNode" />
               <item name="py_Mysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ymh_porject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ymh_porject" type="462c0819:PsiDirectoryNode" />
-              <item name="server_linux" type="462c0819:PsiDirectoryNode" />
+              <item name="Qt_pratice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,26 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.connection">
-    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="public_porject" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test1">
     <configuration name="connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,25 +317,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ftp_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server_linux" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="public_porject" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_linux/ftp_for.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="message-i (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,6 +331,44 @@
       <module name="public_porject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_pratice/message-i.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_pratice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="public_porject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_pratice/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qt_pratice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="public_porject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qt_pratice/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,18 +418,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.message-i (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ftp_for" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="3" class="java.lang.String" itemvalue="Python._pydev_execfile" />
-      <item index="4" class="java.lang.String" itemvalue="Python.connection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.connection" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.connection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test1" />
         <item index="1" class="java.lang.String" itemvalue="Python.test2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ftp_for" />
-        <item index="3" class="java.lang.String" itemvalue="Python.message-i (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python._pydev_execfile" />
+        <item index="2" class="java.lang.String" itemvalue="Python.message-i (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.connection" />
       </list>
     </recent_temporary>
   </component>
@@ -470,21 +489,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="23" width="1440" height="802" extended-state="0" />
+    <frame x="116" y="35" width="1440" height="802" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5030722" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31432748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.4969278" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14091559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3362573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.4969278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14592275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40350878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40350878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -554,6 +574,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -711,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.python-version" />
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg" />
     <entry file="file://$PROJECT_DIR$/venv/bin/activate" />
@@ -816,24 +830,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/test.py">
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/file_os">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/test1.py">
+    <entry file="file://$PROJECT_DIR$/pyproject.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/pyQt5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="448">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,59 +853,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/file_os">
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/message-i.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="130" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="e#330#351#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server_linux/ftp_for.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="43" />
           <folding>
             <element signature="e#331#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qt_pratice/message-i.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding>
-            <element signature="e#330#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Qt_pratice/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1979">
-          <caret line="125" column="31" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="31" />
-          <folding>
-            <element signature="e#330#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyproject.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="107">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_Mysql/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="299">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#333#354#0" expanded="true" />
-            <marker date="1588092248886" expanded="true" signature="736:789" ph="INSERT INTO EMPLOYEE... " />
+            <marker date="1588173027632" expanded="true" signature="814:1068" ph="insert into app_version... " />
+            <marker date="1588173027632" expanded="true" signature="814:1069" ph="INSERT INTO EMPLOYEE... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/pyQt5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qt_pratice/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="144" column="55" lean-forward="false" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
+          <folding>
+            <element signature="e#330#351#0" expanded="true" />
+            <marker date="1588508113468" expanded="true" signature="4823:4934" ph="insert into app_version... " />
+            <marker date="1588508113468" expanded="true" signature="4823:4955" ph="insert into app_version... " />
           </folding>
         </state>
       </provider>

@@ -33,28 +33,23 @@ class Putserver():
         # # 将sshclient的对象的transport指定为以上的trans
         ssh = paramiko.SSHClient()
         ssh._transport = Putserver.trans
-        # 执行命令，和传统方法一样
-        stdin, stdout, stderr = ssh.exec_command('pwd')
-        print(stdout.read().decode('utf-8'))
+        # # 执行命令，和传统方法一样
+        # stdin, stdout, stderr = ssh.exec_command('pwd')
+        # print(stdout.read().decode('utf-8'))
 
     def putconnet(self):
         # 实例化一个 sftp对象,指定连接的通道
         sftp = paramiko.SFTPClient.from_transport(Putserver.trans)
-        # 发送文件
         path1 = open("../Qt_pratice/path_load", "r+")
         Fpath = path1.read()
-        #存储地址
         Files = open("../Qt_pratice/file_os", "r+")
         Fname = Files.read()
         sftp.put(localpath='{}'.format(Fpath), remotepath='/root/{}'.format(Fname))
 
-        # 下载文件`
-        # sftp.get(remotepath, localpath)
-        # 关闭连接
-        # trans.close()
 
 
 if __name__ == '__main__':
     start = Putserver()
     # start.connection()
     start.putconnet()
+    start.close()

@@ -36,28 +36,50 @@ class Winos(QWidget):
 
     def initUI(self):
         #打印文件信息
-        self.open_path_text = QLineEdit(self)
-        self.open_path_text.setGeometry(QRect(30, 22, 250, 23))
-        self.open_path_text.setPlaceholderText("打开地址")
+        self.open_path_text = QLineEdit()
+        self.open_path_text.setEnabled(False)
+        self.open_path_text.setPlaceholderText("文件地址")
         # 创建按钮选取文件
-        self.btn = QPushButton('选择文件', self)
-        self.btn.setGeometry(QRect(280, 22, 75, 23))
-        self.btn.clicked.connect(self.openfile)
+        Choosepath = QPushButton('选择文件', self)
+        Choosepath.clicked.connect(self.openfile)
 
         # apk包信息
-        self.title = QLabel('软件名')
-        self.titleEdit = QLineEdit()
+        PackageName = QLabel('名称')
+        self.PackageNameEdit = QLineEdit()
+        self.PackageNameEdit.setPlaceholderText("APK包名称")
 
-        self.author = QLabel('版本号')
-        self.authorEdit = QLineEdit()
-        self.review = QLabel('发版信息')
-        self.reviewEdit = QTextEdit()
+        Vsersion = QLabel('版本号')
+        self.VsersionEdit = QLineEdit()
+        self.VsersionEdit.setPlaceholderText("APK包版本号")
 
 
+        Information = QLabel('发版信息')
+        self.InformationEdit = QTextEdit()
+        self.InformationEdit.setPlaceholderText("APK包发版信息")
 
-        self.btn1 = QPushButton('保存', self)
-        self.btn1.setGeometry(QRect(280, 50, 75, 23))
-        self.btn1.clicked.connect(self.savefile)
+
+        Savepath = QPushButton('保存', self)
+        Savepath.setGeometry(QRect(280, 270, 120, 23))
+        Savepath.clicked.connect(self.savefile)
+
+
+        # 用QGridLayout定义排列框架
+        Debuggingbox = QGridLayout()
+        Debuggingbox.setContentsMargins(1, 1, 5, 50)
+        Debuggingbox.setSpacing(10)
+
+        Debuggingbox.addWidget(self.open_path_text,1,1)
+        Debuggingbox.addWidget(Choosepath,1,0)
+
+        Debuggingbox.addWidget(PackageName, 2, 0)
+        Debuggingbox.addWidget(self.PackageNameEdit, 2, 1)
+
+        Debuggingbox.addWidget(Vsersion, 3, 0)
+        Debuggingbox.addWidget(self.VsersionEdit, 3, 1)
+
+        Debuggingbox.addWidget(Information, 4, 0)
+        Debuggingbox.addWidget(self.InformationEdit, 4, 1, 4,1)
+        self.setLayout(Debuggingbox)
 
         # 这里是创建窗口
         self.setGeometry(400, 400, 400, 300)
@@ -78,24 +100,41 @@ class Winos(QWidget):
 
     def openfile(self):
         fileName1 = QFileDialog.getOpenFileName(self, "选取文件")
-        print(fileName1)
+        # print(fileName1)
         path = fileName1[0]
         #文件地址存储
-        self.open_path_text.setText(path)
-        path_load = open("path_load", "w" ,encoding="utf-8")
-        path_load.write(path)
-        #文件名字存储
+        # path_load = open("path_load", "w" ,encoding="utf-8")
+        # path_load.write(path)
+        # #文件名字存储
         f = QFileInfo(path)
         file_name = f.fileName()
-        print(file_name)
-        Na = open("file_os", "w", encoding="utf-8")
-        Na.write(file_name)
-        # path_load.close()
+        self.open_path_text.setText(file_name)
+        # Na = open("file_os", "w", encoding="utf-8")
+        # Na.write(file_name)
+
 
     def savefile(self):
+        fileName= self.open_path_text.text()
+        packageName = self.PackageNameEdit.text()
+        Vsersion= self.VsersionEdit.text()
+        info= self.InformationEdit.toPlainText()
+        print(fileName,packageName,Vsersion,info)
+
         "调用paramiko连接服务器并保存"
-        save = Putserver()
-        save.putconnet()
+        # empty = open('file_os', "r+")
+        # save = Putserver()
+        # filesize = os.path.getsize('file_os')
+        if not all ([fileName,packageName,Vsersion,info]):
+            QMessageBox.warning(self, "警告", "请查看相关信息是否未填写！")
+        else:
+            # save.putconnet()
+            # empty.truncate()
+            self.open_path_text.clear()
+            self.PackageNameEdit.clear()
+            self.VsersionEdit.clear()
+            self.InformationEdit.clear()
+
+
 
 
     #删除按钮

@@ -20,28 +20,26 @@ import time
 logging.config.dictConfig(settings.LOGGING)
 #引用日志记录器
 loggers = logging.getLogger('log')
+class dboperation():
+    # 打开数据库连接
+    db =pymysql.connect(host='rds0cxlu1x8n4a289397132.mysql.rds.aliyuncs.com',
+        user='ubodydbuser',
+        passwd='k3n9P_8Knaf',
+        db='ubody_organization',
+        charset='utf8')
+    # 使用cursor()方法获取操作游标
+    cursor = db.cursor()
+    sql = """insert into app_version(av_url,av_name,av_version,av_desc,av_status,av_addtime,av_edittime) values(
+            'http://api.ubody.net/apk/SK-GS2-OTC-XB.apk','SK-GS2-OTC-XB',18,'1、修改产品展示跟动销话术的内容',1,
+            '2020-04-29 22:42:37','2020-04-29 22:42:41');"""
+    try:
+        cursor.execute(sql)
+        db.commit()
+    except:
+        # 如果发生错误则回滚
+        db.rollback()
 
-# 打开数据库连接
-db =pymysql.connect(host='120.24.239.10',
-    port=3306,
-    user='root',
-    passwd='123456',
-    db='public_health',
-    charset='utf8')
 
-# 使用cursor()方法获取操作游标
-cursor = db.cursor()
-
-# SQL 插入语句
-sql = """insert into role_user(user_id,role_id) values(1523,5)"""
-try:
-    # 执行sql语句
-    cursor.execute(sql)
-    # 提交到数据库执行
-    db.commit()
-except:
-    # 如果发生错误则回滚
-    db.rollback()
-
-# 关闭数据库连接
-db.close()
+if __name__=='__mian__':
+    rundb=dboperation
+    rundb.close()
